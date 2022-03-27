@@ -1,0 +1,15 @@
+
+
+.grid-item {
+    padding: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+#mixer, #rastrillo, #embolsadora, #extractor, #mdd200{
+    width: 300px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.grid-mixer, .grid-rastrillo, .grid-embolsadora, .grid-extractor, .grid-cabezal {
+    display: inline;
+    color: white;
+}
