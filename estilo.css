@@ -1,28 +1,34 @@
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: brown;
-    font-family: sans-serif;
+.grid-container {
+    background: #444;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "aside main main main main"
+    "aside main main main main"
+    "footer footer footer footer footer";
 }
 
-input[type="submit"]{
-    background: rgb(5, 88, 5);
-    color: white;
+.grid-item {
+padding: 20px;
 }
 
-form {
-    width: 100%;
-    text-align: center;
-}
-img {
-    width: 300px;
+.grid-footer {
+    background-color: #679;
+    grid-area: footer;
 }
 
-flex-item {
-    flex-grow: 1;
-    flex-basis: 300px;
-    margin: 20px;
-    max-width: 300px;
-    border: 2px solid black;
+.grid-header {
+    background-color: #f96;
+    grid-area: header;
+}
+
+.grid-main {
+    background-color: #96f;
+    grid-area: main;
+}
+
+.grid-aside {
+    background-color: aqua;
+    grid-area: aside;
 }
