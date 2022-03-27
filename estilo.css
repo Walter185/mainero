@@ -1,6 +1,5 @@
 .grid-container {
     background: #444;
-    margin: 10px;
     display: grid;
     grid-template-areas: 
     "header header header header header"
